@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c0d0f"
+    android:id="@+id/root"
+    tools:context=".DraggableViewSampleActivity">
+
+    <com.jun.view.DraggableView
+        android:id="@+id/draggable"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#525861">
+
+        <View
+            android:id="@+id/drag_area"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="#8CB3FF" />
+
+    </com.jun.view.DraggableView>
+
+</RelativeLayout>
